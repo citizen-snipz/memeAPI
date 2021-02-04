@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  text-align: center;
+  margin: 3em;
+  background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI5fHxnZW9tZXRyaWMlMjBwYXR0ZXJufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-family: "Comic Neue", cursive;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+img {
+  display: block;
+  max-width: 50vw;
+  height: fit-content;
+  margin: 1.5em auto;
+  border: 1px solid gray;
+}
+
+.card {
+  width: 100%;
+}
+
+h1,
+h4 {
+  color: rgb(227, 15, 235);
+  text-shadow: 1px 1px 3px rgb(216, 247, 107);
+}
+
+h2 {
+  font-size: 4.5em;
+  color: blueviolet;
+  text-shadow: 1px 1px 3px rgb(13, 238, 99);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+button {
+  background-image: linear-gradient(15deg, rgb(162, 245, 114) 20%, yellow);
+  padding: 1.2em;
+  border-radius: 10% 25%;
+  border: 2px solid blueviolet;
+  color: blueviolet;
+  font-size: 1.2em;
+  font-weight: 700;
+  outline: 0;
+}
